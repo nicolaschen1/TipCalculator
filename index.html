@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Calculate the tip">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Calculate the tip</title>
+		<link type='text/css' rel='stylesheet' href='mystyle.css'/>
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open Sans"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	</head>
+
+	<body>
+		<h1>How much is the tip?</h1>
+		<div id="calculator">
+		<form>
+			<p>Bill Amount: <input id="amount"></p>
+			<p>Percentage Tip: <input id="percentage"/></p>
+			<p>Tip Amount: <input id="tip" disabled="disabled" /></p>
+			<p>Total: <input id="total" disabled="disabled"/></p>
+		</form>
+				
+		<div id="buttons">
+			<div class="button" onClick="calculate()">Calculate</div>
+			<div class="button" onClick="reset()">Reset</div>
+		</div>
+		</div>		
+		
+		<script type='text/javascript' src='myscript.js'></script>
+
+		<footer>
+			<center><b>Copyright &copy; 2018 Nicolas Chen</b></center> 	  
+		</footer>
+	</body>
+
+</html>

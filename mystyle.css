@@ -1,0 +1,75 @@
+/**********************
+Filename: mystyle.css
+Author: Nicolas Chen
+Version: 1.0
+***********************/
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+	background-color: #b5d2ea;
+}
+
+#calculator {
+	background-color: #dd4306;
+	width: 450px;
+	height: 350px;
+	color: #fff;
+	padding: 55px;
+	padding-top: 5px;
+	border-style: none;
+	border-radius: 25px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+input {
+	float: right;
+	clear: both;
+	width: 120px;
+	height: 25px;
+	margin-top: 5px;
+	text-align: center;
+	font-weight: bold;
+}
+
+p {
+	font-size: 35px;
+}
+
+footer {
+	font-size: 20px;
+	color: #0f1ef4;
+}
+
+.button {
+	background-color: #0521ab;
+	border-style: none;
+	border-radius: 6px;
+	width: 220px;
+	height: 45px;
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+	display: inline;
+    font-weight:bold;
+    font-style:normal;
+	line-height:65px;
+	white-space: nowrap;
+    padding: 10px;
+	text-align:center;
+	cursor: pointer;
+}
+
+#buttons {
+	margin: 0 auto; 
+	text-align: center;
+}
+
+h1 {
+	font-size: 65px;
+	text-align: center;
+	color: #1a15af;
+}
